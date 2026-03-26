@@ -1,0 +1,24 @@
+# OpenClaw config and secrets - NEVER commit these
+openclaw.json
+openclaw.json.bak
+auth-profiles.json
+secrets.json
+*.secret
+*.key
+*.pem
+
+# OpenClaw state directories
+.openclaw/
+.openclaw-dev/
+
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

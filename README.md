@@ -332,7 +332,7 @@ openclaw gateway run --bind tailnet --tailscale serve
   "gateway": {
     "auth": {
       "mode": "token",
-      "token": "340fc929c64ede4fd7ba6d7a62f02790c004f1a5e96b6385"
+      "token": "YOUR_TOKEN_HERE"
     }
   }
 }
